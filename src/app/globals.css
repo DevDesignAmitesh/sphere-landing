@@ -1,26 +1,94 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #111827;
+  --surface: #ffffff;
+  --surface-muted: #eff4fa;
+  --primary: #0b1f3a;
+  --secondary: #163a63;
+  --accent: #c9a857;
+  --border: rgba(22, 58, 99, 0.12);
+  --muted: #5b6475;
+  --shadow: 0 24px 70px rgba(11, 31, 58, 0.08);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-manrope);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  background-image:
+    radial-gradient(circle at top left, rgba(201, 168, 87, 0.12), transparent 28%),
+    linear-gradient(180deg, #f8fafc 0%, #eef3f9 100%);
+}
+
+a,
+button {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+::selection {
+  background: rgba(201, 168, 87, 0.2);
+}
+
+.section-shell {
+  width: 100%;
+  max-width: 76rem;
+  margin: 0 auto;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+
+.card-surface {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.section-title {
+  font-family: var(--font-manrope), Arial, Helvetica, sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.eyebrow {
+  color: var(--secondary);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .section-shell {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
