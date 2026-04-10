@@ -29,8 +29,7 @@ export const siteContent = {
       label: "View Services",
       href: "#services",
     },
-    image:
-      "https://images.pexels.com/photos/10375897/pexels-photo-10375897.jpeg?cs=srgb&dl=pexels-rdne-10375897.jpg&fm=jpg",
+    image: "/images/site/hero-meeting.jpg",
     highlights: [
       "Formal brand presentation",
       "Image-led premium layout",
@@ -47,8 +46,7 @@ export const siteContent = {
     title: "Structured for trust. Built for presentation.",
     description:
       "SHOP SPHERE PVT LTD is presented as a dependable financial support brand focused on clarity, confidence, and modern service experience.",
-    image:
-      "https://images.pexels.com/photos/5673489/pexels-photo-5673489.jpeg?cs=srgb&dl=pexels-sora-shimazaki-5673489.jpg&fm=jpg",
+    image: "/images/site/about-consultation.jpg",
     features: [
       "Clear brand positioning",
       "Corporate visual language",
@@ -66,43 +64,37 @@ export const siteContent = {
         kicker: "Retail Banking",
         title: "Personal Banking Support",
         description: "Support-led services for everyday client banking needs.",
-        image:
-          "https://images.pexels.com/photos/34862508/pexels-photo-34862508.jpeg?cs=srgb&dl=pexels-jakubzerdzicki-34862508.jpg&fm=jpg",
+        image: "/images/site/service-contract.jpg",
       },
       {
         kicker: "Corporate Banking",
         title: "Business Banking Assistance",
         description: "Professional help for business-focused banking support.",
-        image:
-          "https://images.pexels.com/photos/8134002/pexels-photo-8134002.jpeg?cs=srgb&dl=pexels-a-darmel-8134002.jpg&fm=jpg",
+        image: "/images/site/service-team.jpg",
       },
       {
         kicker: "Advisory",
         title: "Financial Guidance",
         description: "Consultation-oriented support with a formal service tone.",
-        image:
-          "https://images.pexels.com/photos/7875831/pexels-photo-7875831.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        image: "/images/site/service-advisory.jpg",
       },
       {
         kicker: "Credit",
         title: "Loan and Credit Assistance",
         description: "Simple service presentation for lending-related support.",
-        image:
-          "https://images.pexels.com/photos/7641842/pexels-photo-7641842.jpeg?cs=srgb&dl=pexels-a-darmel-7641842.jpg&fm=jpg",
+        image: "/images/site/service-credit.jpg",
       },
       {
         kicker: "Accounts",
         title: "Account Management Support",
         description: "Help with structured onboarding and client servicing touchpoints.",
-        image:
-          "https://images.pexels.com/photos/5946207/pexels-photo-5946207.jpeg?cs=srgb&dl=pexels-theo-decker-5946207.jpg&fm=jpg",
+        image: "/images/site/service-accounts.jpg",
       },
       {
         kicker: "Client Service",
         title: "Documentation and Assistance",
         description: "Professional communication and process support for clients.",
-        image:
-          "https://images.pexels.com/photos/23496870/pexels-photo-23496870.jpeg?cs=srgb&dl=pexels-silverkblack-23496870.jpg&fm=jpg",
+        image: "/images/site/service-client.jpg",
       },
     ],
   },
@@ -111,8 +103,7 @@ export const siteContent = {
     title: "The page now leans more visual, lighter on text, and closer to the reference flow.",
     description:
       "A cleaner composition with premium spacing, section rhythm, and stronger visual storytelling.",
-    image:
-      "https://images.pexels.com/photos/9300997/pexels-photo-9300997.jpeg?cs=srgb&dl=pexels-matreding-9300997.jpg&fm=jpg",
+    image: "/images/site/building-modern.jpg",
     items: [
       {
         title: "Trusted Positioning",
@@ -137,8 +128,7 @@ export const siteContent = {
     title: "Simple steps. Clean communication. Professional delivery.",
     description:
       "A concise process section inspired by the reference website’s visual rhythm.",
-    image:
-      "https://images.pexels.com/photos/16786512/pexels-photo-16786512.jpeg?cs=srgb&dl=pexels-mak-jp-120034769-16786512.jpg&fm=jpg",
+    image: "/images/site/process-building.jpg",
     steps: [
       {
         title: "Consultation",
@@ -165,39 +155,39 @@ export const siteContent = {
       "Curated demo imagery for a stronger, more complete premium presentation.",
     items: [
       {
-        src: "https://images.pexels.com/photos/11176809/pexels-photo-11176809.jpeg?cs=srgb&dl=pexels-czapp-arpad-3647289-11176809.jpg&fm=jpg",
+        src: "/images/site/gallery-building-exterior.jpg",
         alt: "Corporate office building exterior",
       },
       {
-        src: "https://images.pexels.com/photos/34862508/pexels-photo-34862508.jpeg?cs=srgb&dl=pexels-jakubzerdzicki-34862508.jpg&fm=jpg",
+        src: "/images/site/service-contract.jpg",
         alt: "Close-up of contract signing in office",
       },
       {
-        src: "https://images.pexels.com/photos/5673489/pexels-photo-5673489.jpeg?cs=srgb&dl=pexels-sora-shimazaki-5673489.jpg&fm=jpg",
+        src: "/images/site/about-consultation.jpg",
         alt: "Professional contract review meeting",
       },
       {
-        src: "https://images.pexels.com/photos/8134002/pexels-photo-8134002.jpeg?cs=srgb&dl=pexels-a-darmel-8134002.jpg&fm=jpg",
+        src: "/images/site/service-team.jpg",
         alt: "Corporate team discussion in meeting room",
       },
       {
-        src: "https://images.pexels.com/photos/9300997/pexels-photo-9300997.jpeg?cs=srgb&dl=pexels-matreding-9300997.jpg&fm=jpg",
+        src: "/images/site/building-modern.jpg",
         alt: "Modern glass corporate building",
       },
       {
-        src: "https://images.pexels.com/photos/7641842/pexels-photo-7641842.jpeg?cs=srgb&dl=pexels-a-darmel-7641842.jpg&fm=jpg",
+        src: "/images/site/service-credit.jpg",
         alt: "Business contract signing close-up",
       },
       {
-        src: "https://images.pexels.com/photos/11584259/pexels-photo-11584259.jpeg?cs=srgb&dl=pexels-to-tao-119110580-11584259.jpg&fm=jpg",
+        src: "/images/site/gallery-discussion.jpg",
         alt: "Strategy discussion in a modern office",
       },
       {
-        src: "https://images.pexels.com/photos/5673489/pexels-photo-5673489.jpeg?cs=srgb&dl=pexels-sora-shimazaki-5673489.jpg&fm=jpg",
+        src: "/images/site/about-consultation.jpg",
         alt: "Formal banking consultation at office desk",
       },
       {
-        src: "https://images.pexels.com/photos/9300997/pexels-photo-9300997.jpeg?cs=srgb&dl=pexels-matreding-9300997.jpg&fm=jpg",
+        src: "/images/site/building-modern.jpg",
         alt: "Modern finance district building exterior",
       },
     ],
