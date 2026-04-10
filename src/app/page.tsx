@@ -80,7 +80,7 @@ export default function Home() {
             <div className="relative overflow-hidden rounded-[2rem]">
               <Image
                 src={hero.image}
-                alt="Professional meeting for banking presentation"
+                alt="Corporate event planning presentation"
                 width={1400}
                 height={980}
                 className="h-[24rem] w-full object-cover md:h-[34rem]"
@@ -109,7 +109,7 @@ export default function Home() {
           <FadeIn className="relative overflow-hidden rounded-[2rem]">
             <Image
               src={about.image}
-              alt="Corporate consultation in office"
+              alt="Corporate event consultation"
               width={1200}
               height={1000}
               className="h-[22rem] w-full object-cover md:h-[30rem]"
@@ -203,7 +203,7 @@ export default function Home() {
           <FadeIn delay={0.08} className="relative overflow-hidden rounded-[2rem]">
             <Image
               src={strengths.image}
-              alt="Modern business building"
+              alt="Premium event venue exterior"
               width={1300}
               height={1000}
               className="h-[22rem] w-full object-cover md:h-[32rem]"
@@ -217,7 +217,7 @@ export default function Home() {
           <FadeIn className="relative overflow-hidden rounded-[2rem]">
             <Image
               src={process.image}
-              alt="Team discussion in office"
+              alt="Corporate event venue planning"
               width={1200}
               height={1000}
               className="h-[22rem] w-full object-cover md:h-[30rem]"
@@ -324,7 +324,7 @@ export default function Home() {
             <div className="relative">
               <Image
                 src={hero.image}
-                alt="Corporate consultation visual"
+                alt="Corporate event showcase visual"
                 width={1200}
                 height={980}
                 className="h-56 w-full object-cover opacity-65"
